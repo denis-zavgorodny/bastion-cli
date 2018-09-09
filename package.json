@@ -1,0 +1,21 @@
+{
+  "name": "bastion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denis Zavgorodny",
+  "license": "ISC",
+  "dependencies": {
+    "await-fs": "^1.0.0",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "node-cmd": "^3.0.0",
+    "prompt": "^1.0.0"
+  },
+  "bin": {
+      "bastion": "./index.js"
+  }
+}
